@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    background-color: rgb(20, 19, 58);
+}
+
+p{
+    font-size: 13px;    
+}
+
+.div_img{
+    background-image: url('../img/001.jpg');
+    width: auto;
+    height: auto;
+}
+
+.div_top{
+    background-image: url('../img/005.jpg');
+    width: auto;
+    height: auto;
+}
+
+.menuLateral{
+    color:lightcyan;
+}
+
+.fundoLateral{
+
+    background-color: rgb(6, 7, 46);
+}
+
+.letraTituloLateral{
+    text-align: center;
+    color:lightcyan;
+    font-size: inherit;
+    text-shadow: 1px 1px darkgray;
+}
+
+.letraTituloCorpo{
+    text-align: center;
+    color:lightcyan;
+    font-size: inherit;
+    text-shadow: 1px 1px darkgray;
+    margin: 7px;
+}
+
+.letraTitulo{
+    color: lightcyan;
+    font-size: inherit;
+}
+
+.letraSintese{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotoPessoal{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    margin: 0px auto;
+}
+
+.margemFoto{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.backgroungBodyInformation{
+
+    background-color: rgb(250, 248, 248);
+    color:rgb(20, 19, 58);
+}
+
+

@@ -1,873 +1,249 @@
 <!DOCTYPE html>
-<html lang="pt" class="chrome body-bg-gradient wf-sourcesanspro-n4-active wf-opensans-n4-active wf-sairasemicondensed-n4-active wf-firasans-n4-active wf-ptsans-n4-active wf-blinker-n4-active wf-active" style="">
-    <head>
-
+<html lang="pt" class="chrome body-bg-gradient">
+<head>
     <meta charset="utf-8">
-    <meta name="author" content="Marcelo Guimba">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Marcelo, Guimarães, currículo">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Marcelo Guimba">
+    <meta name="decriptiton" content="Apresentão de Currículo">
+    <title>Currículo</title>
     <script type="text/javascript" src="js/curriculo.js"></script>
-    <link href="css/curriculo.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <style type="text/css" data-react-beautiful-dnd-always="21"> [data-react-beautiful-dnd-drag-handle="21"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="21"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="21"> [data-react-beautiful-dnd-drag-handle="21"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="22"> [data-react-beautiful-dnd-drag-handle="22"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="22"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="22"> [data-react-beautiful-dnd-drag-handle="22"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="23"> [data-react-beautiful-dnd-drag-handle="23"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="23"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="23"> [data-react-beautiful-dnd-drag-handle="23"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="24"> [data-react-beautiful-dnd-drag-handle="24"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="24"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="24"> [data-react-beautiful-dnd-drag-handle="24"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="25"> [data-react-beautiful-dnd-drag-handle="25"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="25"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="25"> [data-react-beautiful-dnd-drag-handle="25"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="26"> [data-react-beautiful-dnd-drag-handle="26"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="26"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="26"> [data-react-beautiful-dnd-drag-handle="26"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="27"> [data-react-beautiful-dnd-drag-handle="27"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="27"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="27"> [data-react-beautiful-dnd-drag-handle="27"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="28"> [data-react-beautiful-dnd-drag-handle="28"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="28"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="28"> [data-react-beautiful-dnd-drag-handle="28"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="29"> [data-react-beautiful-dnd-drag-handle="29"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="29"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="29"> [data-react-beautiful-dnd-drag-handle="29"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="30"> [data-react-beautiful-dnd-drag-handle="30"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="30"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="30"> [data-react-beautiful-dnd-drag-handle="30"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="31"> [data-react-beautiful-dnd-drag-handle="31"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="31"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="31"> [data-react-beautiful-dnd-drag-handle="31"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="32"> [data-react-beautiful-dnd-drag-handle="32"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="32"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="32"> [data-react-beautiful-dnd-drag-handle="32"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="33"> [data-react-beautiful-dnd-drag-handle="33"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="33"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="33"> [data-react-beautiful-dnd-drag-handle="33"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="44"> [data-react-beautiful-dnd-drag-handle="44"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="44"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="44"> [data-react-beautiful-dnd-drag-handle="44"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="45"> [data-react-beautiful-dnd-drag-handle="45"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="45"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="45"> [data-react-beautiful-dnd-drag-handle="45"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="46"> [data-react-beautiful-dnd-drag-handle="46"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="46"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="46"> [data-react-beautiful-dnd-drag-handle="46"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="47"> [data-react-beautiful-dnd-drag-handle="47"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="47"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="47"> [data-react-beautiful-dnd-drag-handle="47"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="57"> [data-react-beautiful-dnd-drag-handle="57"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="57"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="57"> [data-react-beautiful-dnd-drag-handle="57"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="58"> [data-react-beautiful-dnd-drag-handle="58"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="58"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="58"> [data-react-beautiful-dnd-drag-handle="58"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-        <style type="text/css" data-react-beautiful-dnd-always="59"> [data-react-beautiful-dnd-drag-handle="59"] { 
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            touch-action: manipulation;
-            } [data-react-beautiful-dnd-droppable="59"] { overflow-anchor: none; } </style>
-            <style type="text/css" data-react-beautiful-dnd-dynamic="59"> [data-react-beautiful-dnd-drag-handle="59"] { 
-        cursor: -webkit-grab;
-        cursor: grab;
-        }  </style>
-    </head>
-    <body class="JT-feature-exp for-ada-fix">
-        <main id="app" role="main">
-            <section class="page-wrapper">
-                <section class="page-final ">
-                    <section class="container overflow-auto-sm">
-            <div class="header-resume header-dark" id="headerResume" style="width: 749.7px;">
-            
-            <div class="body-resume"><div class="resume-document" id="resumeDoc" style="width: 749.7px;">
-            <div class="loader-resume position-absolute d-none">
-                <div class="loader-gif"></div>
-            </div>
-            <div class="js-document-wrap" tabindex="">
-            <div>
-                <style type="text/css" id="static">
-                    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
-                    body{line-height:1;text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
-                    .skn-mlc4 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
-                    .skn-mlc4 .parentContainer{table-layout:fixed}
-
-                    /*START content disc style for LI*/
-                    .skn-mlc4 ul,.skn-mlc4 li{list-style:none;margin:0;padding:0}
-                    .skn-mlc4 ul li{position:relative;margin:0px;padding-left:8px}
-                    .skn-mlc4 ul li:before{content:'\2022';font-size:9px;position:absolute;left:0;top:0}
-                    /*END content disc style for LI*/
-
-
-                    .skn-mlc4 .clear{clear:both;height:0}
-                    .skn-mlc4 br.clear{line-height:0}
-                    .skn-mlc4 .txt-bold{font-weight:bold}
-                    .skn-mlc4 .txtItl{font-style:italic}
-                    .skn-mlc4 .paddedline{display:block}
-                    .skn-mlc4 .sprtr{margin:0 3px}
-                    .skn-mlc4 .flt-right{float:right}
-                    .skn-mlc4 .word-break{word-break:break-word}
-
-                    .skn-mlc4 table.skills,.skn-mlc4 .table_wrapper{width:100%;margin-top:0;word-break:break-all}
-                    .skn-mlc4 table.skills th,.skn-mlc4 table.skills td{width:20%;text-align:center}
-                    .skn-mlc4 table.skills .skillname,.skn-mlc4 table.skills .skillrating{text-align:left;width:35%}
-                    .skn-mlc4 table.skills .skillrating{width:20%}
-                    .skn-mlc4 table.skills .skillyears,.skn-mlc4 table.skills .skilllast{width:19%}
-                    .skn-mlc4 table.skills .pad1{width:5%}
-                    .skn-mlc4 table.skills .pad2,.skn-mlc4 table.skills .pad3{width:1%}
-                    .skn-mlc4{color:#242424;line-height:16px;font-variant-ligatures:none;border-collapse:collapse;min-height:792px;word-wrap:break-word}
-                    .skn-mlc4 .name{color:#4a4a4a;font-weight:bold;padding:0 0 10px 0;text-align:left;position:relative;word-wrap:break-word;text-transform:capitalize}
-                    .skn-mlc4 .address .singlecolumn, .skn-mlc4 .additional_lnk .singlecolumn{color:#3b3b3b;margin-left:0!important;text-align:left}
-
-                    /* Common style for left and right box */
-                    .skn-mlc4 .right-box{padding:25px;display:table-cell;vertical-align:top;letter-spacing:0.2px}
-                    .skn-mlc4 .left-box .section[id^="SECTION_PPIC"] + .section, .skn-mlc4 .left-box .section[id^="SECTION_PICT"] + .section{padding-top:20px!important}
-                    .skn-mlc4 .left-box{background-color:#2b2b2b;display:table-cell;overflow:hidden;background-size:100%;color:#fff;padding:25px;box-sizing:content-box}
-                    .skn-mlc4 .left-box .section{padding-left:10px;padding-right:10px;border-bottom:1px solid #9b9b9b}
-                    .skn-mlc4 .left-box .section:first-child,.skn-mlc4 .right-box .section:first-child{padding-top:0px}
-                    .skn-mlc4 .left-box .section[id^="SECTION_PPIC"], .skn-mlc4 .left-box .section[id^="SECTION_PICT"]{padding-top:0;padding-bottom:0!important;margin-bottom:25px;border:none;text-align:center;position:relative}
-                    .skn-mlc4 .left-box .section:first-child .paragraph{padding:0;display:block}
-                    .skn-mlc4 .left-box > .section:last-of-type{border:none}
-
-                    /* PRFL */
-                    .skn-mlc4 .prflPic,.skn-mlc4 .prflPic .field{vertical-align:middle;text-align:center;}
-                    .skn-mlc4 .prflPic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
-                    .skn-mlc4 .left-box .heading,.skn-mlc4 .right-box .paragraph,.skn-mlc4 .additional_lnk,.skn-mlc4 .adnlLnks ul li{padding: 0!important}
-                    .skn-mlc4 .adnlLnks ul li:before{content:''}
-                    .skn-mlc4 .parentContainer{display:table;width:100%;min-height:inherit}
-                    .skn-mlc4 .left-box .section.pict-sec{padding-left:0;padding-right:0}
-
-                    /* Heading */
-                    .skn-mlc4 .heading{font-weight:bold;line-height:15px;margin-bottom:10px;text-transform:uppercase}
-                    .skn-mlc4 .sectiontitle{word-wrap:break-word}
-                    .skn-mlc4 .right-box .heading{letter-spacing:0}
-                    .skn-mlc4 .jobdates{font-size:8px;font-style:italic}
-                    .skn-mlc4 .septr:before{content:"|";font-size:9px;vertical-align:top;padding-left:2px;padding-right:2px}
-                    .skn-mlc4 .jobline ul, .skn-mlc4 .education .field ul{margin-top:10px}
-                    .skn-mlc4 .education .joblocation{font-style:italic}
-                    .skn-mlc4 .section:empty {display:none}
-                    .skn-mlc4 .left-box .section[id^="SECTION_PPIC"]:after, .skn-mlc4 .left-box .section[id^="SECTION_PICT"]:after{display:none;}
-                    .skn-mlc4 .left-box .section:after{content:'';display:block;}
-
-                    /* Style for Signature */
-                    .skn-mlc4 .disclaim .field.singlecolumn,.skn-mlc4 .paragraph .signPic > .field_sign{margin-left:0}
-                    .skn-mlc4 .disclaim .field.singlecolumn,.skn-mlc4 .disclaim .field.singlecolumn li,.skn-mlc4 .disclaim .field.singlecolumn p,.skn-mlc4 .disclaim .field.singlecolumn span{font-size:9px;color:#8a8a8a}
-                    .skn-mlc4 .paragraph .signPic{font-size:7px;color:#8a8a8a}
-                    .skn-mlc4 .txtleft + .field_sign{text-align:left}
-                    .skn-mlc4 .txtcenter + .field_sign{text-align:center}
-                    .skn-mlc4 .txtright + .field_sign{text-align:right}
-                    .skn-mlc4 .signPic img{max-width:100%}
-                    
-                    /* LDE specific change */
-                    .skn-mlc4.LDE .hide-de{display:none}
-                    
-                    /*New logic for infographic*/
-                    .skn-mlc4 .lang-sec .singlecolumn{display:none}
-                    .skn-mlc4 .lang-sec.infotilesec .infotilepara{display:block}
-                    
-                    /*Infographic Tiles*/
-                    .skn-mlc4 .lang-sec.infotilesec,.skn-mlc4 .skli-sec{font-size:0}
-                    .skn-mlc4 .right-box .lang-sec.infotilesec .paragraph,.skn-mlc4 .right-box .skli-sec .paragraph{font-size:0;display:inline-block;vertical-align:top;padding-bottom:5px!important;margin-top:0}
-                    .skn-mlc4 .lang-sec.infotilesec > .paragraph:nth-last-child(1),.skn-mlc4 .right-box .lang-sec.infotilesec > .paragraph:nth-last-child(2),.skn-mlc4 .skli-sec > .paragraph:nth-last-child(1),.skn-mlc4 .right-box .skli-sec > .paragraph:nth-last-child(2){padding-bottom:0}
-                    .skn-mlc4 .lang-sec.infotilesec .field *,.skn-mlc4 .skli-sec .field *,.skn-mlc4 .lang-sec.infotilesec .nativeLangPara .field{display:inline}
-                    .skn-mlc4 .right-box .lang-sec.infotilesec .singlecolumn,.skn-mlc4 .right-box .skli-sec .singlecolumn{margin-left:0}
-                    .skn-mlc4 .lang-sec.infotilesec .sliced-rect,.skn-mlc4 .skli-sec .sliced-rect{height:6px;width:100%;line-height:0px;margin-top:3px;clear:both}
-                    .skn-mlc4 .right-box .lang-sec.infotilesec .paragraph.para_odd,.skn-mlc4 .right-box .skli-sec .paragraph.para_odd{margin-right:15px}
-                    .skn-mlc4 .left-box .lang-sec.infotilesec .paragraph,.skn-mlc4 .left-box .skli-sec .paragraph{width:100%;max-width:100%;margin-top:0}
-                    .skn-mlc4 .lang-sec.infotilesec .sliced-rect .sliced-rect-tile,.skn-mlc4 .skli-sec .sliced-rect .sliced-rect-tile{height:100%;background-color:#d5d6d6;float:left;margin-right:3px}
-                    .skn-mlc4 .lang-sec.infotilesec .sliced-rect .sliced-rect-tile:last-child,.skn-mlc4 .skli-sec .sliced-rect .sliced-rect-tile:last-child{margin-right:0}
-                    .skn-mlc4 .left-box .lang-sec.infotilesec .sliced-rect .sliced-rect-tile,.skn-mlc4 .left-box .skli-sec .sliced-rect .sliced-rect-tile{background:rgba(255,255,255,.25)}
-                    .skn-mlc4 .left-box .lang-sec.infotilesec .sliced-rect .sliced-rect-tile.ratvfill,.skn-mlc4 .left-box .skli-sec .sliced-rect .sliced-rect-tile.ratvfill{background:#fff}
-
-                    /*Rectangular Rating Blocks*/
-                    .skn-mlc4 .right-box .sliced-rect .sliced-rect-tile.ratvfill{background-color:#576d7b}
-                    .skn-mlc4 .hide-bar .rating-bar,.skn-mlc4 .hide-bar .sliced-rect,.skn-mlc4 .hide-colon .colon{display:none}
-                    .skn-mlc4 .rating-bar{page-break-inside:avoid}
-
-                    /* Only for firefox */
-                    @-moz-document url-prefix() {
-                    .skn-mlc4 .parentContainer{height:1px}
-                    }
-                </style>
-                <style type="text/css" id="dynamic" data-time="Tue Aug 16 2022 16:30:50 GMT-0300 (Brasilia Standard Time)">
-                    .skn-mlc4,.skn-mlc4 table {line-height: 18px;}
-                    .skn-mlc4.pagesize{width:749px}
-                    .skn-mlc4.fontsize,.skn-mlc4 ul li:before,.skn-mlc4 .septr:before,.skn-mlc4 .lang-sec.infotilesec .paragraph *,.skn-mlc4 .skli-sec .paragraph *{font-size:14px}
-                    .skn-mlc4.fontface{font-family:Trebuchet MS}
-                    .skn-mlc4 .section{padding-top:25px}
-                    .skn-mlc4 .left-box .section{padding-top:13px;}
-                    .skn-mlc4 .left-box .section:after{padding-bottom:13px;}
-                    .skn-mlc4 .firstparagraph{margin-top:0!important}
-                    .skn-mlc4 .paragraph{margin-top:13px}
-                    .skn-mlc4 .right-box .singlecolumn,.skn-mlc4 .right-box .maincolumn{margin-left:0px;word-wrap:break-word}
-                    .skn-mlc4 table.skills td{padding-top:6px}
-                    .skn-mlc4 .name{font-size:42px;line-height:40px}
-                    .skn-mlc4 .address2{font-size:14px;line-height:{$CILH}px}
-                    .skn-mlc4 .heading{font-size:18px;line-height:22px}
-                    .skn-mlc4 .left-box{width:219px;background-color:#2b2b2b}
-                    .skn-mlc4 .jobdates{font-size:12px}
-                    .skn-mlc4 .right-box .firstsection + .additional_lnk + .section,
-                    .skn-mlc4 .right-box .firstsection + .section:not(.additional_lnk),
-                    .skn-mlc4 .right-box .additional_lnk + .section{padding-top:37px}
-                    .skn-mlc4 .disclaim,.skn-mlc4 .sign{padding-top:63px}
-                    .skn-mlc4 .sign + .disclaim,.skn-mlc4 .disclaim + .sign{padding-top:25px}
-                    .skn-mlc4 .prflPic img{width:163px;min-width:163px;max-width:163px;height:211px;max-height:211px;min-height:211px}
-                    .skn-mlc4 .prflPic,.skn-mlc4 .prflPic .field{height:211px}
-
-                    /*Infographic Skills*/
-                    .skn-mlc4 .parentContainer .right-box .lang-sec.infotilesec,.skn-mlc4 .parentContainer .right-box .skli-sec{padding-left:0px}
-                    .skn-mlc4 .parentContainer .right-box .lang-sec.infotilesec .heading,.skn-mlc4 .parentContainer .right-box .skli-sec .heading{margin-left:-0px}
-                    .skn-mlc4 .parentContainer .right-box .lang-sec.infotilesec .paragraph,.skn-mlc4 .parentContainer .right-box .skli-sec .paragraph{width:190px}
-                    .skn-mlc4 .left-box .lang-sec.infotilesec .paragraph,.skn-mlc4 .left-box .skli-sec .paragraph{padding-bottom:6px}
-                    .skn-mlc4 .right-box .lang-sec.infotilesec .nativeLangPara{width:404px!important;max-width:404px!important}
-                    .page-final .skn-mlc4 .right-box .lang-sec.infotilesec .sortable-item .paragraph,.page-final .skn-mlc4 .right-box .skli-sec .sortable-item .paragraph{width:231px}
-                    .skn-mlc4 .right-box .lang-sec.infotilesec .sortable-item .paragraph,.skn-mlc4 .right-box .skli-sec .sortable-item .paragraph{width:209px}
-                    .skn-mlc4 .right-box .lang-sec .sortable-item,.skn-mlc4 .right-box .skli-sec .sortable-item{display:inline-block;vertical-align:top}
-                    .skn-mlc4.LDE .right-box .lang-sec.infotilesec .sortable-item .nativeLangPara{width:485px!important;max-width:485px!important}
-                    
-
-                    /*Rectangular Rating Blocks*/
-                    .skn-mlc4 .paragraph .sliced-rect .sliced-rect-tile.ratvfill{background-color:#2b2b2b}
-                    
-
-                    /*Builder fixes*/
-                    .skn-mlc4 .left-box .sortable-item:last-child .section{border:none}
-                </style>
-            </div>
-            <div class="document fontsize fontface vmargins hmargins  pagesize skn-mlc4 MLC4  LPT " docskinwidth="753"><div id="CONTAINER_PARENT_0" class="parentContainer">
-                <div id="CONTAINER_0" class="left-box">
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-PICT">
-                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div>
-                        <div id="SECTION_PICTdde83471-8ce7-4cc8-bf39-76ff956eabe1" class="section notdraggable pict-sec SECTION_PICT firstsection   " data-section-cd="PICT">
-                            <div class=" doc-item">
-                                <div class="">
-                                    <div id="PARAGRAPH_PICT_f378470f-a23f-4c72-b511-f35217e0fb9d" class="paragraph PARAGRAPH_PICT firstparagraph  ">
-                                        <div class="clearfix doc-item">
-                                            <div class="prflPic">
-                                                <div class="field" id="FIELD_PURL">
-                                                    <img src="img/fotoCurriculo1.jpeg"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
-                                <span>&nbsp;</span>
-                            </div>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/curriculo.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="img/icoFav.png" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 menuLateral fundoLateral div_img">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="margemFoto rounded">
+                            <img class="img-thumbnail fotoPessoal img-fluid mx-auto d-block" src="img/fotoCurriculo1.jpeg" />
                         </div>
                     </div>
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-HILT">
-                        <div id="SECTION_HILT2e2887d9-83a8-4cbc-b65e-d190f721f021" class="section SECTION_HILT    has-title " data-section-cd="HILT">
-                            <div class=" doc-item">
-                                <div class="heading">
-                                    <div class="sectiontitle" id="SECTIONNAME_HILT">Competências</div>
-                                </div>
-                                <div class="">
-                                    <div class="">
-                                        <div id="PARAGRAPH_HILT_8a1ef1ed-b56e-4c84-9e12-007243004b3b" class="paragraph PARAGRAPH_HILT firstparagraph  ">
-                                            <div class="clearfix doc-item">
-                                                <div class="singlecolumn maincolumn">
-                                                    <span class="paddedline" id="FIELD_SKC1">
-                                                        <ul>
-                                                            <li>Infraestrutura em Redes de Computadores</li>
-                                                            <li>Desenvolvimento de Software</li>
-                                                        </ul>
-                                                    </span>
-                                                    <span class="paddedline" id="FIELD_SKC2">
-                                                        <ul>
-                                                            <li>Utilizador avançado de informática</li>
-                                                        </ul>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                <span class="badge badge-primary badge-edit"></span>
-                                                <span>&nbsp;</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
-                                <span>&nbsp;</span>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <hr>
+                        <div class="letraTituloLateral">
+                            Competências
+                        </div>
+                        <div>
+                            <ul>
+                                <li><p>Infraestrutura em Redes de Computadores</p></li>
+                                <li><p>Desenvolvimento de Software</p></li>
+                                <li><p>Utilizador avançado de informática</p></li>
+                            </ul>
                         </div>
                     </div>
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-EDUC">
-                        <div id="SECTION_EDUC1c8c37cc-1a5c-4d17-8f0d-325cfe97ed49" class="section education SECTION_EDUC   multi-para has-title " data-section-cd="EDUC">
-                            <div class=" doc-item">
-                                <div class="heading">
-                                    <div class="sectiontitle" id="SECTIONNAME_EDUC">Educação</div>
-                                </div>
-                                <div class="">
-                                    <div class="sortableInner">
-                                        <div class="sortable-item paragraph-container">
-                                            <div id="PARAGRAPH_EDUC_4f848b52-a954-461e-b979-e04ee479119e" class="paragraph PARAGRAPH_EDUC firstparagraph  ">
-                                                    <div class="clearfix doc-item">
-                                                        <div class="singlecolumn">
-                                                            <div class="paddedline" dependency="GRYR|GRST|GRED">
-                                                                <span class="jobdates txtItl" id="FIELD_GRYR" format="%m/%Y" dependency="GRYR">2013</span>
-                                                                <span class="jobdates txtItl" id="FIELD_GRST" format="%m/%Y"></span><span dependency="GRST+GRED" style="display: none;"> – </span><span class="jobdates txtItl" id="FIELD_GRED" format="%m/%Y"></span>
-                                                            </div>
-                                                            <div class="paddedline" dependency="SCIT|SSTA|SCHO|SCNT">
-                                                                <span class="companyname txt-bold" id="FIELD_SCHO">IESB</span>
-                                                                <span dependency="SCHO"><span dependency="SSTA|SCIT|SCNT" class="septr"></span></span>
-                                                                <span class="joblocation jobcity" id="FIELD_SCIT">Brasília-DF</span><span dependency="SCIT+SSTA|SCNT" style="display: none;">, </span>
-                                                                <span class="joblocation jobstate" id="FIELD_SSTA"></span><span dependency="SSTA+SCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_SCNT"></span>
-                                                            </div>
-                                                            <div class="paddedline degreeGap" dependency="DGRE|STUY">
-                                                                <span class="degree" id="FIELD_DGRE">Tecnólogo em Redes de Computadores</span><span dependency="DGRE+STUY">: </span>
-                                                                <span class="programline" id="FIELD_STUY">Tecnologia da Informação</span>
-                                                            </div>
-                                                            <span class="paddedline" dependency="GRPA" style="display: none;">
-                                                                <span class="txt-bold xslt_static_change">GPA</span><span>: </span><span class="field" id="FIELD_GRPA"></span>
-                                                            </span>
-                                                            <span class="field" id="FIELD_FRFM">
-                                                                <ul>
-                                                                    <li>Curso de Tecnólogo em Redes de Computadores</li>
-                                                                </ul>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                        <span class="badge badge-primary badge-edit"></span>
-                                                        <span>&nbsp;</span>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="sortable-item paragraph-container">
-                                            <div id="PARAGRAPH_EDUC_dc551cf9-cf34-4fed-ae49-ca2714530ad2" class="paragraph PARAGRAPH_EDUC  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <div class="paddedline" dependency="GRYR|GRST|GRED">
-                                                            <span class="jobdates txtItl" id="FIELD_GRYR" format="%m/%Y" dependency="GRYR">2011</span>
-                                                            <span class="jobdates txtItl" id="FIELD_GRST" format="%m/%Y"></span>
-                                                            <span dependency="GRST+GRED" style="display: none;"> – </span>
-                                                            <span class="jobdates txtItl" id="FIELD_GRED" format="%m/%Y"></span>
-                                                        </div>
-                                                        <div class="paddedline" dependency="SCIT|SSTA|SCHO|SCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_SCHO">Faculdade Fortium</span>
-                                                            <span dependency="SCHO"><span dependency="SSTA|SCIT|SCNT" class="septr"></span></span>
-                                                            <span class="joblocation jobcity" id="FIELD_SCIT">Brasília-DF</span><span dependency="SCIT+SSTA|SCNT" style="display: none;">, </span>
-                                                            <span class="joblocation jobstate" id="FIELD_SSTA"></span><span dependency="SSTA+SCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_SCNT"></span>
-                                                        </div>
-                                                        <div class="paddedline degreeGap" dependency="DGRE|STUY">
-                                                            <span class="degree" id="FIELD_DGRE">Tecnólogo em Sistemas de Informação</span><span dependency="DGRE+STUY">: </span>
-                                                            <span class="programline" id="FIELD_STUY">Tecnologia da Informação</span>
-                                                        </div>
-                                                        <span class="paddedline" dependency="GRPA" style="display: none;">
-                                                            <span class="txt-bold xslt_static_change">GPA</span><span>: </span><span class="field" id="FIELD_GRPA"></span>
-                                                        </span>
-                                                        <span class="field" id="FIELD_FRFM">
-                                                            <ul>
-                                                                <li>Curso de Sistemas de Informação</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
-                                <span>&nbsp;</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <hr>
+                        <div class="letraTituloLateral">
+                            Educação
+                        </div>
+                        <div>
+                            <p>
+                                <span class="font-italic">2013 - </span>
+                                <span class="font-weight-bold">Faculdade IESB</span> | <span>Brasília-DF</span>
+                                <span>Tecnólogo em Redes de Computadores</span>
+                                <ul>
+                                    <li><p>Curso Superior em Redes de Computadores</p></li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div>
+                            <div>
+                                <p>
+                                    <span class="font-italic">2011 - </span>
+                                    <span class="font-weight-bold">Faculdade Fortium</span> | <span>Brasília-DF</span>
+                                    <span>Tecnólogo em Sistemas de Informação</span>
+                                    <ul>
+                                        <li><p>Curso Superior em Sistemas de Informação</p></li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="CONTAINER_1" class="right-box">
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-PRFL">
-                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div>
-                        <div id="SECTION_PRFL34880ca3-f9e4-4aa7-9b8d-2f594774e061" class="section notdraggable SECTION_PRFL firstsection   " data-section-cd="PRFL">
-                            <div class=" doc-item">
-                                <div class="">
-                                    <div id="PARAGRAPH_PRFL_40d8920a-bf48-4937-ae36-bf56d55f45a1" class="paragraph PARAGRAPH_PRFL firstparagraph  ">
-                                        <div>
-                                            <div class="name">
-                                                <span id="FIELD_FNAM" dependency="FNAM">Marcelo</span>
-                                                <span id="FIELD_LNAM" dependency="LNAM">Guimarães</span>
-                                            </div>
-                                            <div class="address">
-                                                <div class="singlecolumn">
-                                                    <div dependency="IDOB" style="display: none;">
-                                                        <span id="FIELD_IDOB"></span>
-                                                    </div>
-                                                    <div dependency="HPHN" style="display: none;">
-                                                        <span id="FIELD_HPHN"></span>
-                                                    </div>
-                                                    <div dependency="CPHN">
-                                                        <span id="FIELD_CPHN">(61)99816-0190</span>
-                                                    </div>
-                                                    <div dependency="EMAI">
-                                                        <span id="FIELD_EMAI">marcelo.acad@gmail.com</span>
-                                                    </div>
-                                                    <div dependency="ADDR|STRT|CITY|STAT|ZIPC">
-                                                        <span id="FIELD_STRT"></span><span dependency="STRT" style="display: none;"><span dependency="CITY|STAT|ZIPC">, </span></span>
-                                                        <span id="FIELD_ZIPC">72241109</span><span dependency="ZIPC+CITY|STAT">, </span>
-                                                        <span id="FIELD_CITY">Brasília</span><span dependency="CITY+STAT" style="display: none;">, </span>
-                                                        <span id="FIELD_STAT"></span>
-                                                        <span id="FIELD_ADDR"></span>
-                                                    </div>
-                                                    <div dependency="WEB1" style="display: none;">
-                                                        <span id="FIELD_WEB1"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="address userdetail word-break" dependency="DOB1|NTLY|IDNV|MSTA|DRIV|SOCL" style="display: none;">
-                                                <div class="singlecolumn">
-                                                    <span dependency="DOB1" class="paddedline" style="display: none;">
-                                                    <span class="txt-bold"><span class="xslt_static_change">undefined</span><span class="hide-de">:</span><span> </span></span><span id="FIELD_DOB1"></span>
-                                                    <span dependency="DOB1+POB1" style="display: none;"><span class="xslt_static_change">in</span></span>
-                                                        <span id="FIELD_POB1"></span>
-                                                    </span>
-                                                    <span dependency="DRIV" class="paddedline" style="display: none;">
-                                                        <span class="txt-bold"><span class="xslt_static_change">undefined</span><span>: </span></span><span id="FIELD_DRIV"></span>
-                                                    </span>
-                                                    <span dependency="MSTA" class="paddedline" style="display: none;">
-                                                        <span class="txt-bold"><span class="xslt_static_change"></span><span>: </span></span><span id="FIELD_MSTA"></span>
-                                                    </span>
-                                                    <div dependency="SOCL" style="display: none;">
-                                                    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                            <span class="badge badge-primary badge-edit"></span>
-                                            <span>&nbsp;</span>
+            </div>
+            <div class="col-9 backgroungBodyInformation">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col div_top">
+                                <div class="row">
+                                    <div class="col letraTituloCorpo">
+                                        <h3>Curriculum Vitae</h3>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col">
+                                        <h2><span class="letraTituloCorpo font-weight-bold">Marcelo Guimarães</span></h2>
+                                        <div class="letraTitulo">
+                                            <p>
+                                                Fone - (61)99816-0190<br>
+                                                Email - marcelo.acad@gmail.com<br>
+                                                Cep - 72.241.109<br />
+                                                Cidade - Brasília-DF
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
-                                <span>&nbsp;</span>
                             </div>
                         </div>
-                    </div>
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-SUMM">
-                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div>
-                        <div id="SECTION_SUMMa436c20d-11c1-41ea-b196-eb6fc2a105f6" class="section SECTION_SUMM    has-title " data-section-cd="SUMM">
-                            <div class=" doc-item">
-                                <div class="heading">
-                                    <div class="sectiontitle" id="SECTIONNAME_SUMM">Síntese</div>
-                                </div>
-                                <div class="">
-                                    <div class="">
-                                        <div id="PARAGRAPH_SUMM_9ff1ea95-503b-43dd-9ef4-f2af4a30ecbc" class="paragraph PARAGRAPH_SUMM firstparagraph  ">
-                                            <div class="clearfix doc-item">
-                                                <div class="singlecolumn" id="FIELD_FRFM">
-                                                    <p>
-                                                        Comprometido e ligado em inovações tecnológicas e no mundo do Open Source, focando no universo do software e suporte de ativos de Tecnologia da Informação.
-                                                        Minhas experiências profissionais incluem vivência com computadores, máquinas, programas de software e relacionamento com pessoas de todos os níveis hierárquicos em qualquer ambiente de trabalho que passei.
-                                                        Sempre determinado a executar um trabalho melhor, sem deixar de corrigir o que foi ruim e aperfeiçoar o que foi bom.
-                                                        Com essa iniciativa de buscar o melhor consegui atingir bons resultados por onde passei.
-                                                        Sou bastante comprometido com o meu desenvolvimento pessoal, busco me atualizar sempre, seja academicamente ou pessoalmente.
-                                                        Meu site pessoal: https://p000059.github.io/personal/
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                <span class="badge badge-primary badge-edit"></span>
-                                                <span>&nbsp;</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
-                                <span>&nbsp;</span>
+                        <div class="row">
+                            <div class="col letraSintese">
+                                <h5><span class="font-weight-bold" >Síntese</span></h5>
+                                <p class="text-justify">
+                                    Comprometido e ligado em inovações tecnológicas e no mundo do Open Source, focando no universo do software e suporte de ativos de Tecnologia da Informação. Minhas experiências profissionais incluem vivência com computadores, máquinas, programas de software e relacionamento com pessoas de todos os níveis hierárquicos em qualquer ambiente de trabalho que passei. Sempre determinado a executar um trabalho melhor, sem deixar de corrigir o que foi ruim e aperfeiçoar o que foi bom. Com essa iniciativa de buscar o melhor consegui atingir bons resultados por onde passei. Sou bastante comprometido com o meu desenvolvimento pessoal, busco me atualizar sempre, seja academicamente ou pessoalmente. 
+                                    <br>Meu site pessoal: https://p000059.github.io/personal/
+                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-EXPR">
-                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div>
-                        <div id="SECTION_EXPR74191abc-2f92-4d6d-8c88-f7fa8c32c4a2" class="section SECTION_EXPR   multi-para has-title " data-section-cd="EXPR">
-                            <div class=" doc-item">
-                                <div class="heading">
-                                    <div class="sectiontitle" id="SECTIONNAME_EXPR">Experiências</div>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <h5><span class="font-weight-bold">Experiências Profissionais</span></h5>
+                                <div class="text-justify">
+                                    <p>
+                                        <span class="font-italic">03/2022 - 05/2022</span> <br> 
+                                        <span class="font-weight-bold">R7 Facilities</span> | <span>Brasília-DF</span>
+                                        <span>Tecnólogo de TI</span>
+                                        <ul>
+                                            <li><p>Desenvolvi trabalhos de controle de demandas em sistema e participava dos processos de resolução de demandas do negócio, também fazia levantamento de requisitos para os sistemas utilizados no negócio.</p></li>
+                                            <li><p>Em um segundo momento, nesta empresa, fiz parte da equipe de gerência de projetos de software atendendo solicitações de demandantes da área negocial e articulava tarefas entre a Gerência de Sistemas local com as áreas negociais e com a fábrica de software.</p></li>
+                                        </ul>
+                                    </p>
                                 </div>
-                                <div class="">
-                                    <div class="sortableInner">
-                                        <div class="sortable-item paragraph-container">
-                                            <div class="document-tool para-tool" style="right: -2px;"></div>
-                                            <div id="PARAGRAPH_EXPR_b0f4c443-fa96-d4b1-b6af-be34bf7e2355" class="paragraph PARAGRAPH_EXPR firstparagraph  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <span class="paddedline" dependency="JSTD|EDDT">
-                                                            <span class="jobdates" id="FIELD_JSTD" format="%m/%Y">03/2022</span>
-                                                            <span dependency="JSTD+EDDT"> - </span>
-                                                            <span class="jobdates" id="FIELD_EDDT" format="%m/%Y">05/2022</span><br dependency="JSTD|EDDT">
-                                                        </span>
-                                                        <span class="paddedline locationGap" dependency="COMP|JSTA|JCIT|JCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_COMP">R7 Facilities</span>
-                                                            <span dependency="COMP">
-                                                                <span dependency="JCIT|JSTA|JCNT"> | </span>
-                                                            </span>
-                                                            <span class="jobcity" id="FIELD_JCIT">Brasília-DF</span>
-                                                            <span dependency="JCIT+JSTA|JCNT" style="display: none;">, </span>
-                                                            <span class="jobstate" id="FIELD_JSTA"></span><span dependency="JSTA+JCNT" style="display: none;">,</span> 
-                                                            <span class="joblocation jobcountry" id="FIELD_JCNT"></span>
-                                                        </span>
-                                                        <span class="paddedline" dependency="JTIT">
-                                                            <span class="jobtitle txtCaps" id="FIELD_JTIT">Tecnólogo de TI</span>
-                                                        </span>
-                                                        <span class="jobline" id="FIELD_JDES">
-                                                            <ul>
-                                                                <li>Desenvolvi trabalhos de controle de demandas em sistema e participava dos processos de resolução de demandas do negócio, também fazia levantamento de requisitos para os sistemas utilizados no negócio.</li>
-                                                                <li>Em um segundo momento, nesta empresa, fiz parte da equipe de gerência de projetos de software atendendo solicitações de demandantes da área negocial e articulava tarefas entre a Gerência de Sistemas local com as áreas negociais e com a fábrica de software.</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sortable-item paragraph-container">
-                                            <div class="document-tool para-tool" style="right: -2px;"></div>
-                                            <div id="PARAGRAPH_EXPR_2292bc22-5fd5-f99b-3202-59bc79615e0e" class="paragraph PARAGRAPH_EXPR  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <span class="paddedline" dependency="JSTD|EDDT">
-                                                            <span class="jobdates" id="FIELD_JSTD" format="%m/%Y">07/2020</span><span dependency="JSTD+EDDT"> - </span>
-                                                            <span class="jobdates" id="FIELD_EDDT" format="%m/%Y">09/2021</span><br dependency="JSTD|EDDT">
-                                                        </span>
-                                                        <span class="paddedline locationGap" dependency="COMP|JSTA|JCIT|JCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_COMP">82 Auto Center</span><span dependency="COMP"><span dependency="JCIT|JSTA|JCNT"> | </span></span>
-                                                            <span class="jobcity" id="FIELD_JCIT">Brasília-DF</span><span dependency="JCIT+JSTA|JCNT" style="display: none;">, </span>
-                                                            <span class="jobstate" id="FIELD_JSTA"></span><span dependency="JSTA+JCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_JCNT"></span>
-                                                        </span>
-                                                        <span class="paddedline" dependency="JTIT">
-                                                            <span class="jobtitle txtCaps" id="FIELD_JTIT">Micro-Empreendedor</span>
-                                                        </span>
-                                                        <span class="jobline" id="FIELD_JDES">
-                                                            <ul>
-                                                                <li>Minha grande experiência vivida como empreendedor, onde passei a exergar as relações de trabalho e de negócio por outra perspectiva totalmente diferente das vivenciadas até então.</li>
-                                                                <li>Aprendi como administrar uma empresa na prática em quase todas as funções de: Marketing, atendimento a cliente, relação com fornecedor, finanças da empresa, relação com empregado e muitos outros assuntos relacionados a uma empresa na posição de dono, consultor e também técnico.</li>
-                                                                <li>Apesar de ser de atuação na área automotiva, fora de minha formação acadêmica, foi uma experiência única com um excelentre aprendizado de estar do outro lado da relação de trabalho como empregador/micro-empresário.</li>
-                                                                <li>Resolução de Problemas Criativamente: - Resolvi problemas relacionados a produtos(fornecedor) e serviços através da avaliação do consumidor e da própria necessidade de melhoria da imagem da empresa.</li>
-                                                                <li>Constantemente realizei análises complexas de sistemas automotivos para resolver problemas, o que resultou na maioria das vezes em resultado positivo.</li>
-                                                                <li>Providênciei documentos, autorizações, certificados e aprovações de agências governamentais locais e nacionais para o funcionamento da empresa.</li>
-                                                                <li>Supervisão - Supervisionei três técnicos automotivos em momentos diferentes.</li>
-                                                                <li>Iniciei parcerias importantes que resultaram em facilitação na divulgação da empresa e no fornecimento de produtos.</li>
-                                                                <li>Marketing - Implementei estratégias de marketing onde obtive retorno na captação de clientes.</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sortable-item paragraph-container">
-                                            <div class="document-tool para-tool" style="right: -2px;"></div>
-                                            <div id="PARAGRAPH_EXPR_8a070963-2059-e9ec-cf8c-597987344427" class="paragraph PARAGRAPH_EXPR  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <span class="paddedline" dependency="JSTD|EDDT">
-                                                            <span class="jobdates" id="FIELD_JSTD" format="%m/%Y">07/2011</span><span dependency="JSTD+EDDT"> - </span>
-                                                            <span class="jobdates" id="FIELD_EDDT" format="%m/%Y">05/2020</span><br dependency="JSTD|EDDT">
-                                                        </span>
-                                                        <span class="paddedline locationGap" dependency="COMP|JSTA|JCIT|JCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_COMP">EMGEA</span><span dependency="COMP"><span dependency="JCIT|JSTA|JCNT"> | </span></span>
-                                                            <span class="jobcity" id="FIELD_JCIT">Brasília-DF</span><span dependency="JCIT+JSTA|JCNT" style="display: none;">, </span>
-                                                            <span class="jobstate" id="FIELD_JSTA"></span><span dependency="JSTA+JCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_JCNT"></span>
-                                                        </span>
-                                                        <span class="paddedline" dependency="JTIT">
-                                                            <span class="jobtitle txtCaps" id="FIELD_JTIT">Técnico Administrativo / Assessor</span>
-                                                        </span>
-                                                        <span class="jobline" id="FIELD_JDES">
-                                                            <ul>
-                                                                <li>No primeiro momento trabalhei durante um longo tempo em suporte nível 1 de atendimento a usuário de Desktop. O atendimento era realizado por meio presencial e também remoto por ferramentas fornecidas pela empresa e em ferramenta nativa do sistema operacional windows.</li>
-                                                                <li>No segundo momento foram adicionadas funções a nível 2 de suporte que, apesar das limitações de acesso a algumas funções, foi de grande valia para o aprendizado no sentido mais amplo em redes de computadores e conceitos em domínio de rede corporativa, estrutura robusta de ativos de redes e sistemas de gerenciamento desses ativos. A arquitetura de rede era de um nível de empresa média a grande porte.</li>
-                                                                <li>No terceiro momento desempenhei uma função de programador júnior, onde aprendi como são concebidos sistemas corporativos desde a apresentação em projetos até a execução final. Participei da manutenção de sistemas corporativos legados, onde 80% do tratamento de dados da empresa viviam em constante movimentação. Essas informações eram bastante sensíveis pois se tratava da parte estratégica da empresa.</li>
-                                                                <li>Pontualmente, executei consultas em bases de dados utilizando a linguagem SQL. A tecnologia que aprendi para trabalhar nos sistemas foi o ASP.NET . Para versionamento de software usava-se TeamView, mas logo a empresa adotou o Git para versionar aplicações, meu primeiro contato com o Git.</li>
-                                                                <li>Durante o trabalho na equipe de desenvolvimento de software, eu respodia por contratos de prestadores de serviços/fornecedor, onde analisava planilhas de projetos, organizava reuniões, levantava ordens de serviços e pagamentos, fazia a "ponte" entre os técnicos da empresa fornecedora de software e os usuários internos, de operacionais a gerentes a fim de manter um bom relacionamento entre cliente e fornecedor, prezando pela boa adminstração do contrato de prestação de serviço de software, atentando sempre para a cordialidade e prestatividade entre os parceiros de contrato.</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sortable-item paragraph-container">
-                                            <div id="PARAGRAPH_EXPR_b0df975f-1c5c-a694-77d8-e521bda45357" class="paragraph PARAGRAPH_EXPR  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <span class="paddedline" dependency="JSTD|EDDT">
-                                                            <span class="jobdates" id="FIELD_JSTD" format="%m/%Y">01/2011</span><span dependency="JSTD+EDDT"> - </span>
-                                                            <span class="jobdates" id="FIELD_EDDT" format="%m/%Y">06/2011</span><br dependency="JSTD|EDDT">
-                                                        </span>
-                                                        <span class="paddedline locationGap" dependency="COMP|JSTA|JCIT|JCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_COMP">InClub</span><span dependency="COMP"><span dependency="JCIT|JSTA|JCNT"> | </span></span>
-                                                            <span class="jobcity" id="FIELD_JCIT">Brasília-DF</span><span dependency="JCIT+JSTA|JCNT" style="display: none;">, </span>
-                                                            <span class="jobstate" id="FIELD_JSTA"></span><span dependency="JSTA+JCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_JCNT"></span>
-                                                        </span>
-                                                        <span class="paddedline" dependency="JTIT">
-                                                            <span class="jobtitle txtCaps" id="FIELD_JTIT">Técnico em Suporte a Informática</span>
-                                                        </span>
-                                                        <span class="jobline" id="FIELD_JDES">
-                                                            <ul>
-                                                                <li>Durante minha passagem pelo In Club trabalhei como administrador de um sistema computacional para cadastro, edição, exclusão de usuários e também cadastro em intranet hospedada em Cloud, onde de fato tive minha primeira experiência com sistema corporativo hospedado em nuvem externa.</li>
-                                                                <li>Desenpenhei funções de atualização de produtos e serviços no site do In Club, como edição de código HTML+CSS como, atualização de conteúdos, imagens e propagandas.</li>
-                                                                <li>Também desempenhava operações de suporte a nível 1 para usuários de Desktop e nível 2 para manter a conexão de internet externa e rede interna do ambiente da empresa.</li>
-                                                                <li>Foi de bastante valia o aprendizado no ambiente lógico de rede interno bem como o relacionamento para resolução de problemas da rede externa como, contato com profissionais de operadoras de telefonia/internet e a nível técnico com operadores de cabeamento estruturado a fim de resolver problemas relativos a equipamentos de infraestrutura de redes de computadores.</li>
-                                                                <li>O constante contato com o pessoal de Design de site de internet foi promissor no sentido de aprimorar experiências anteriores com codifição de HTML e CSS e até mesmo a descontinuada linguagem de action script.</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sortable-item paragraph-container">
-                                            <div class="document-tool para-tool" style="right: -2px;"></div>
-                                            <div id="PARAGRAPH_EXPR_c5e24853-cbd1-b850-2fec-e35e41c7134d" class="paragraph PARAGRAPH_EXPR  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <span class="paddedline" dependency="JSTD|EDDT">
-                                                            <span class="jobdates" id="FIELD_JSTD" format="%m/%Y">06/2010</span><span dependency="JSTD+EDDT"> - </span>
-                                                            <span class="jobdates" id="FIELD_EDDT" format="%m/%Y">12/2010</span><br dependency="JSTD|EDDT">
-                                                        </span>
-                                                        <span class="paddedline locationGap" dependency="COMP|JSTA|JCIT|JCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_COMP">SESI</span><span dependency="COMP"><span dependency="JCIT|JSTA|JCNT"> | </span></span>
-                                                            <span class="jobcity" id="FIELD_JCIT">Brasília-DF</span><span dependency="JCIT+JSTA|JCNT" style="display: none;">, </span>
-                                                            <span class="jobstate" id="FIELD_JSTA"></span><span dependency="JSTA+JCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_JCNT"></span>
-                                                        </span>
-                                                        <span class="paddedline" dependency="JTIT">
-                                                            <span class="jobtitle txtCaps" id="FIELD_JTIT">Técnico em informática</span>
-                                                        </span>
-                                                        <span class="jobline" id="FIELD_JDES">
-                                                            <ul>
-                                                                <li>Durante o meu tempo de trabalho no sistema FIBRA, tive a minha primeira experiência com atendimento nível 1 de suporte ao usuário bem como em um ambiente de grande empresa.</li>
-                                                                <li>Meu período de atuação no sistema fibra foi vital para minha continuidade na área de TI, pois foi nessa empresa que consegui crescimento no relacionamento interpessoal e crescimento de visão dentro do segmento de suporte que, futuramente me abriria "portas" de trabalho dentro desta função.</li>
-                                                                <li>Foi também trabalhando no sistema FRIBA que conheci o "mundo" do software open source, onde cresceu bastante o meu interesse no assunto, me fazendo buscar cursos em sistemas operacionais sobre licença GPL.</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sortable-item paragraph-container">
-                                            <div class="document-tool para-tool" style="right: -2px;"></div>
-                                            <div id="PARAGRAPH_EXPR_a3275473-61d2-3695-823b-aa313ca1aaf3" class="paragraph PARAGRAPH_EXPR  ">
-                                                <div class="clearfix doc-item">
-                                                    <div class="singlecolumn">
-                                                        <span class="paddedline" dependency="JSTD|EDDT">
-                                                            <span class="jobdates" id="FIELD_JSTD" format="%m/%Y">01/2010</span><span dependency="JSTD+EDDT"> - </span>
-                                                            <span class="jobdates" id="FIELD_EDDT" format="%m/%Y">06/2010</span><br dependency="JSTD|EDDT">
-                                                        </span>
-                                                        <span class="paddedline locationGap" dependency="COMP|JSTA|JCIT|JCNT">
-                                                            <span class="companyname txt-bold" id="FIELD_COMP">Feira dos Importados</span><span dependency="COMP"><span dependency="JCIT|JSTA|JCNT"> | </span></span>
-                                                            <span class="jobcity" id="FIELD_JCIT">Brasília-DF</span><span dependency="JCIT+JSTA|JCNT" style="display: none;">, </span>
-                                                            <span class="jobstate" id="FIELD_JSTA"></span><span dependency="JSTA+JCNT" style="display: none;">,</span> <span class="joblocation jobcountry" id="FIELD_JCNT"></span>
-                                                        </span>
-                                                        <span class="paddedline" dependency="JTIT">
-                                                            <span class="jobtitle txtCaps" id="FIELD_JTIT">Web Design</span>
-                                                        </span>
-                                                        <span class="jobline" id="FIELD_JDES">
-                                                            <ul>
-                                                                <li>Minha primeira experiência trabalhando com Tecnologia da Informação.O trabalho consistia em manipular conteúdo no site www.feiradosimportados.com.br, fazendo criações, inserções, editadanto logos e conteúdo de lojas, bem como algumas complementações no código fonte em linguagem PHP.</li>
-                                                                <li>Nesse período a linguagem do site não utitizava orientação a objeto, sendo ainda programação estruturada.</li>
-                                                            </ul>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="doc-overlay para-overlay" style="left:-2px; right: -2px;">
-                                                    <span class="badge badge-primary badge-edit"></span>
-                                                    <span>&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
-                                <span>&nbsp;</span>
                             </div>
                         </div>
-                    </div>
-                    <div data-react-beautiful-dnd-draggable="21" class="sortable-item section-container SortableItem-sibling data-CERT">
-                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div>
-                        <div id="SECTION_CERT8b088ad6-633a-46e5-9745-42d1ba909f74" class="section SECTION_CERT    has-title " data-section-cd="CERT">
-                            <div class=" doc-item">
-                                <div class="heading">
-                                    <div class="sectiontitle" id="SECTIONNAME_CERT">Cursos e Qualificações</div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-justify">
+                                    <p>
+                                        <span class="font-italic">07/2020 - 09/2021</span> <br> 
+                                        <span class="font-weight-bold">82 Auto Center</span> | <span>Brasília-DF</span>
+                                        <span>Micro-Empreendedor</span>
+                                        <ul>
+                                            <li><p>Minha grande experiência vivida como empreendedor, onde passei a exergar as relações de trabalho e de negócio por outra perspectiva totalmente diferente das vivenciadas até então.</p></li>
+                                            <li><p>Aprendi como administrar uma empresa na prática em quase todas as funções de: Marketing, atendimento a cliente, relação com fornecedor, finanças da empresa, relação com empregado e muitos outros assuntos relacionados a uma empresa na posição de dono, consultor e também técnico.</p></li>
+                                            <li><p>Apesar de ser de atuação na área automotiva, fora de minha formação acadêmica, foi uma experiência única com um excelentre aprendizado de estar do outro lado da relação de trabalho como empregador/micro-empresário.</p></li>
+                                            <li><p>Resolução de Problemas Criativamente: - Resolvi problemas relacionados a produtos(fornecedor) e serviços através da avaliação do consumidor e da própria necessidade de melhoria da imagem da empresa.</p></li>
+                                            <li><p>Constantemente realizei análises complexas de sistemas automotivos para resolver problemas, o que resultou na maioria das vezes em resultado positivo.</p></li>
+                                            <li><p>Providênciei documentos, autorizações, certificados e aprovações de agências governamentais locais e nacionais para o funcionamento da empresa.</p></li>
+                                            <li><p>Supervisão - Supervisionei três técnicos automotivos em momentos diferentes.</p></li>
+                                            <li><p>Iniciei parcerias importantes que resultaram em facilitação na divulgação da empresa e no fornecimento de produtos.</p></li>
+                                            <li><p>Marketing - Implementei estratégias de marketing onde obtive retorno na captação de clientes.</p></li>
+                                        </ul>
+                                    </p>
                                 </div>
-                                <div class="">
-                                    <div class="">
-                                        <div id="PARAGRAPH_CERT_706111bd-e303-455b-a004-399f4271b4e6" class="paragraph PARAGRAPH_CERT firstparagraph  ">
-                                            <div class="clearfix doc-item">
-                                                <div class="singlecolumn" id="FIELD_FRFM">
-                                                    <ul>
-                                                        <li>Sistema Operacional Linux Debian, Ubuntu, Oracle Linux.</li>
-                                                        <li>Ferramenta de virtualização em VMware Workstation, Hyper-V,Virtual-Box.</li>
-                                                        <li>Montagem e configuração de Microcomputadores.</li>
-                                                        <li>Curso técnico Redes de Computadores.</li>
-                                                        <li>Ferramenta Microsoft System Center Configuration Manager.</li>
-                                                        <li>Curso de Configuração em Roteadores e Switches Cisco.</li>
-                                                        <li>Programação em Shell Script de 10h.</li>
-                                                        <li>Banco de Dados Oracle com Scripts,30h.</li>
-                                                        <li>Banco de Dados PostgreSQL 30h.</li>
-                                                        <li>Banco de Dados SqlServer com Scripts de 30h.</li>
-                                                        <li>Teste de Software de 30h.</li>
-                                                        <li>Linguagem de Programação em C# de 80h.</li>
-                                                        <li>Java Script de 60h.</li>
-                                                        <li>Linguagem de Programação JAVA 360h.</li>
-                                                        <li>React frontend 30h.</li>
-                                                        <li>Versionamento de software com ferramenta Git e portfólio no GitHub.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-justify">
+                                    <p>
+                                        <span class="font-italic">07/2011 - 05/2020</span> <br> 
+                                        <span class="font-weight-bold">EMGEA</span> | <span>Brasília-DF</span>
+                                        <span>Técnico Administrativo / Assessor</span>
+                                        <ul>
+                                            <li><p>No primeiro momento trabalhei durante um longo tempo em suporte nível 1 de atendimento a usuário de Desktop. O atendimento era realizado por meio presencial e também remoto por ferramentas fornecidas pela empresa e em ferramenta nativa do sistema operacional windows.</p></li>
+                                            <li><p>No segundo momento foram adicionadas funções a nível 2 de suporte que, apesar das limitações de acesso a algumas funções, foi de grande valia para o aprendizado no sentido mais amplo em redes de computadores e conceitos em domínio de rede corporativa, estrutura robusta de ativos de redes e sistemas de gerenciamento desses ativos. A arquitetura de rede era de um nível de empresa média a grande porte.</p></li>
+                                            <li><p>No terceiro momento desempenhei uma função de programador júnior, onde aprendi como são concebidos sistemas corporativos desde a apresentação em projetos até a execução final. Participei da manutenção de sistemas corporativos legados, onde 80% do tratamento de dados da empresa viviam em constante movimentação. Essas informações eram bastante sensíveis pois se tratava da parte estratégica da empresa.</p></li>
+                                            <li><p>Constantemente realizei análises complexas de sistemas automotivos para resolver problemas, o que resultou na maioria das vezes em resultado positivo.</p></li>
+                                            <li><p>Durante o trabalho na equipe de desenvolvimento de software, eu respodia por contratos de prestadores de serviços/fornecedor, onde analisava planilhas de projetos, organizava reuniões, levantava ordens de serviços e pagamentos, fazia a "ponte" entre os técnicos da empresa fornecedora de software e os usuários internos, de operacionais a gerentes a fim de manter um bom relacionamento entre cliente e fornecedor, prezando pela boa adminstração do contrato de prestação de serviço de software, atentando sempre para a cordialidade e prestatividade entre os parceiros de contrato.</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-justify">
+                                    <p>
+                                        <span class="font-italic">01/2011 - 06/2011</span> <br> 
+                                        <span class="font-weight-bold">InClub</span> | <span>Brasília-DF</span>
+                                        <span>Técnico em Suporte a Informática</span>
+                                        <ul>
+                                            <li><p>Durante minha passagem pelo In Club trabalhei como administrador de um sistema computacional para cadastro, edição, exclusão de usuários e também cadastro em intranet hospedada em Cloud, onde de fato tive minha primeira experiência com sistema corporativo hospedado em nuvem externa.</p></li>
+                                            <li><p>Desenpenhei funções de atualização de produtos e serviços no site do In Club, como edição de código HTML+CSS como, atualização de conteúdos, imagens e propagandas.</p></li>
+                                            <li><p>Também desempenhava operações de suporte a nível 1 para usuários de Desktop e nível 2 para manter a conexão de internet externa e rede interna do ambiente da empresa.</p></li>
+                                            <li><p>Foi de bastante valia o aprendizado no ambiente lógico de rede interno bem como o relacionamento para resolução de problemas da rede externa como, contato com profissionais de operadoras de telefonia/internet e a nível técnico com operadores de cabeamento estruturado a fim de resolver problemas relativos a equipamentos de infraestrutura de redes de computadores.</p></li>
+                                            <li><p>O constante contato com o pessoal de Design de site de internet foi promissor no sentido de aprimorar experiências anteriores com codifição de HTML e CSS e até mesmo a descontinuada linguagem de action script.</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-justify">
+                                    <p>
+                                        <span class="font-italic">06/2010 - 12/2010</span> <br> 
+                                        <span class="font-weight-bold">SESI</span> | <span>Brasília-DF</span>
+                                        <span>Técnico em Suporte a Informática</span>
+                                        <ul>
+                                            <li><p>Durante o meu tempo de trabalho no sistema FIBRA, tive a minha primeira experiência com atendimento nível 1 de suporte ao usuário bem como em um ambiente de grande empresa.</p></li>
+                                            <li><p>Meu período de atuação no sistema fibra foi vital para minha continuidade na área de TI, pois foi nessa empresa que consegui crescimento no relacionamento interpessoal e crescimento de visão dentro do segmento de suporte que, futuramente me abriria "portas" de trabalho dentro desta função.</p></li>
+                                            <li><p>Foi também trabalhando no sistema FRIBA que conheci o "mundo" do software open source, onde cresceu bastante o meu interesse no assunto, me fazendo buscar cursos em sistemas operacionais sobre licença GPL.</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-justify">
+                                    <p>
+                                        <span class="font-italic">01/2010 - 06/2010</span> <br> 
+                                        <span class="font-weight-bold">Feira dos Importados</span> | <span>Brasília-DF</span>
+                                        <span>Web Design</span>
+                                        <ul>
+                                            <li><p>Minha primeira experiência trabalhando com Tecnologia da Informação.O trabalho consistia em manipular conteúdo no site www.feiradosimportados.com.br, fazendo criações, inserções, editadanto logos e conteúdo de lojas, bem como algumas complementações no código fonte em linguagem PHP.</p></li>
+                                            <li><p>Nesse período a linguagem do site não utitizava orientação a objeto, sendo ainda programação estruturada.</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <h5><span class="font-weight-bold">Cursos e Qualificações</span></h5>
+                                <div class="text-justify">
+                                    <p>
+                                        <ul>
+                                            <li><p>Sistema Operacional Linux Debian, Ubuntu, Oracle Linux.</p></li>
+                                            <li><p>Ferramenta de virtualização em VMware Workstation, Hyper-V,Virtual-Box.</p></li>
+                                            <li><p>Montagem e configuração de Microcomputadores.</p></li>
+                                            <li><p>Curso técnico Redes de Computadores.</p></li>
+                                            <li><p>Ferramenta Microsoft System Center Configuration Manager.</p></li>
+                                            <li><p>Configuração em Roteadores e Switches Cisco.</p></li>
+                                            <li><p>Programação em Shell Script.</p></li>
+                                            <li><p>Linguagem Transact-SQL</p></li>
+                                            <li><p>Banco de Dados Oracle</p></li>
+                                            <li><p>Banco de Dados PostgreSQL</p></li>
+                                            <li><p>Banco de Dados SqlServer</p></li>
+                                            <li><p>Teste de Software</p></li>
+                                            <li><p>Linguagem de Programação em ASP.NET</p></li>
+                                            <li><p>Java Script</p></li>
+                                            <li><p>Linguagem de Programação JAVA</p></li>
+                                            <li><p>React frontend</p></li>
+                                            <li><p>Versionamento de software com ferramenta Git e portfólio no GitHub.</p></li>
+                                        </ul>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
-    </body>
+        </div>
+    </div>
+</body>
 </html>
